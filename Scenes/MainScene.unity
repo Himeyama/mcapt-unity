@@ -295,8 +295,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550577883}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: -0.56583714, y: 0.4359972, z: 1.0092316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -426,8 +426,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logger: 
   prefab: {fileID: 1504715797795335400, guid: 7da07e2894cddff458e004e8eeb91e7b, type: 3}
-  p_markers: []
-  markers: []
+  materialLine: {fileID: 2100000, guid: 5de77b7f192830f4d8d1c06200742ec5, type: 2}
+  pMarkers: []
+  port: 8010
 --- !u!4 &1437468229
 Transform:
   m_ObjectHideFlags: 0
@@ -435,7 +436,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437468227}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
